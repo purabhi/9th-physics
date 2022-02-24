@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Overpass:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.navbar-light .navbar-nav .nav-link {
+    color: red;
+}
+
+.top-bar{
+    background-image: linear-gradient(to top left ,#b10c72,#f50411);
+    
+}
+
+
+.contact-details li{
+    text-decoration:none;
+    list-style:none;
+    float:left;
+    margin-bottom: 6px;
+    
+}
+.contact-details a{
+    color:#fff;
+    text-decoration: none;
+    padding-right:20px;
+    font-size:18px;
+
+}
+
+.social-list li{
+    
+    list-style: none;
+    padding-top:8px;
+    
+}
+
+.social-list li a{
+    color:#fff;
+    text-decoration:none;
+    display:flex;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px,0;
+}
+
+li {
+font-weight:500;
+   }
+  
+
+@media screen and (max-width: 768px) {
+    .social-tag{
+        top:11px;
+        position: relative;
+        right:34px;
+    }
+    
+   
+    .social-list li a{
+        color:#fff;
+        text-decoration:none;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1;
+        padding: 10px,0;
+    }
+    .location2{
+        position: relative;
+    left: 3vh;
+    top: 0vh;
+}
+    .enrol-button{
+        margin:20px!important;
+    }
+}
+.enrol-button a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Kurale', serif;
+    font-size:16px;
+    border:1px solid black;
+    padding:1px 55px;
+    border-radius: 100px;
+    position: absolute;
+    transition: all 1s;
+    background-color:RED;
+    
+}
+.enrol-button a:before{
+    content:"ENROLL NOW";
+    color:white;
+    font-family: 'Kurale', serif;
+    font-size:16px;
+    position: absolute;
+    left:0;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    height:100%;
+    width:100%;
+    background-color: #b10c72;
+    transition: all 1s;  
+  
+}
+.enrol-button a:hover::before{
+    transform: scaleX(1.3) scaleY(1.3);
+    opacity: 0;
+}
+.ss ul{
+    padding:0;
+    margin: auto;
+}
+.ss li{
+    list-style-type:none ;
+    padding:10px 20px;
+    
+}
+.ss a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(20, 15, 15);
+    position: relative;
+    font-family: 'Kurale', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ss ul li a:before{
+    content: "";
+    width:0;
+    height: 5px;
+    background-color:#b10c72;
+    position: absolute;
+    top:120%;
+    left:0;
+    transition: all 0.5s;
+   
+}
+.ss ul li a:after{
+   content: "";
+   width:0;
+   height: 5px;
+   background-color:#f50411;
+   position: absolute;
+   top:120%;
+   right:0;
+   transition: all 0.5s;
+  
+}
+.ss ul li a:hover:before{
+   width:50%;
+   transform: translateX(100%);
+
+}
+.ss ul li a:hover:after{
+   width:50%;
+  transform: translateX(-100%);
+}
+.dropdown-toggle::after {
+   display: inline-block;
+   margin-left: 0.255em;
+   vertical-align: 0.255em;
+   content: "";
+   border-top: 0 solid;
+   border-right: 0 solid transparent;
+   border-bottom: 0;
+   border-left: 0 solid transparent;
+}
+
+.enrol-button{
+   display: flex;
+   position: relative;
+   align-items: center;
+   margin: 0;
+
+   
+}
+.enrol-button a{
+   text-decoration: none;
+   color:white;
+   font-family: 'Kurale', serif;
+   font-size:16px;
+   border:1px solid black;
+   padding:1px 55px;
+   border-radius: 100px;
+   position: absolute;
+   transition: all 1s;
+   background-color:RED;
+   
+}
+.enrol-button a:before{
+   content:"ENROLL NOW";
+   color:white;
+   font-family: 'Kurale', serif;
+   font-size:16px;
+   position: absolute;
+   left:0;
+   top:0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   height:100%;
+   width:100%;
+   background-color: #b10c72;
+   transition: all 1s;  
+ 
+}
+.enrol-button a:hover::before{
+   transform: scaleX(1.3) scaleY(1.3);
+   opacity: 0;
+}
+/* ---------subject chapters------- */
+.button1{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.h-1{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-2{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-3{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-4{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-5{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-6{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-7{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-8{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-9{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-10{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-11{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+.h-12{
+  text-align:center;font-family: 'Ubuntu', sans-serif;font-size: 33px; color: #b10c72;
+}
+
+.card-body{
+  display: flex;
+  justify-content: space-evenly;
+}
+.bt{
+  display:block;
+}
+.btt{
+  display: block;
+}
+.cardmain:hover{
+  filter: drop-shadow(6px 6px 6px rgb(58, 57, 57));
+}
+
+
+
+
+ .bt:hover{
+  filter: drop-shadow(5px 5px 5px rgb(39, 39, 39));
+  }
+  .btt:hover{
+  filter: drop-shadow(5px 5px 5px rgb(39, 39, 39));
+ }
+
+/* ----------button overlay on images---------- */
+  .learning-block {
+    position: relative;
+    padding: 0;
+  }
+  .learning-block:hover .overlay {
+    height: 25%;
+   
+    width:60%;
+    
+  }
+  .bodyacc{
+    width:209px;
+  }
+  @media screen and (max-width: 768px){
+    .learning-block:hover .overlay {
+      height: 33%;
+      z-index: 2;
+     
+      display: inline-flex;
+      width:100%;
+    }
+   
+   .bodyacc{
+     display: flex;
+     width: 200px;
+   }
+  }
+   .learning-block .overlay {
+    position: absolute;
+     bottom: 0;
+    
+    overflow: hidden;
+    
+    height: 0;
+    transition: 400ms ease-in;
+   
+  }
+ 
+#part7 {
+    padding: 3em 2em;
+    text-align: center;
+    background:black;
+    margin:auto;
+  }
+  @media screen and (max-width: 768px){
+      #part7{
+          margin-top: 0px!important;
+      }
+    .frame{
+        width:294px;
+        height:320px;
+    }
+    .services h2{
+        margin:25px 80px 15px;
+    }
+    .visit h2{
+        margin:25px 82px 0px;
+    }
+    .btn{
+        margin:25px 80px 0px;
+    }
+    .social{
+        
+        margin-top: 3em!important;
+        margin: 10px -91px 14px;
+    }
+    .sub-visit{
+
+            color: #ffffff;
+            font-family: "Nunito", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: default;
+            
+          }
+    }
+  .services h2 {
+    color: #eeeeee;
+    font-size: 28px;
+    line-height: 1.2em;
+    font-family: 'Raleway';
+    text-align: justify;
+
+  }
+  .services ul {
+    margin-top: 2em;
+  }
+  .services li {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 15px;
+    line-height: 2em;
+    text-align: justify;
+    cursor: default;
+  }
+  .services li:hover {
+    transition: color 250ms linear;
+    color: #e31837;
+  }
+  .visit h2 {
+    color: #eeeeee;
+    font-size: 28px;
+    line-height: 1.2em;
+    font-family: 'Raleway';
+    text-align: justify;
+    margin-bottom: 0.6em;
+  }
+  .sub-visit {
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: default;
+  }
+  .visit button {
+    display: flex;
+    padding: 0.6em 0.6em;
+  }
+  .input-group-text {
+    padding: 0 !important;
+    border: 0;
+    font-size: 1.1rem !important;
+  }
+  .input-group {
+    flex-wrap: nowrap !important;
+  }
+  .input-group-prepend {
+    margin-top: 0.24em;
+  }
+  .icon {
+    white-space: nowrap;
+    background: #e31837;
+    padding: 15px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 1.5em;
+  }
+  .close {
+    border: 0 !important;
+    padding: 0 !important;
+    font-size: 3em;
+    background-color: white;
+  }
+  .close:hover {
+    color: #e31837;
+  }
+  .sub-visit:hover {
+    transition: color 250ms linear;
+    color: #e31837;
+  }
+  .useful-links h2 {
+    color: #eeeeee;
+    font-size: 46px;
+    line-height: 1.2em;
+    font-family: "Anton", sans-serif;
+    text-align: justify;
+  }
+  .useful-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    /* font-size: 16px; */
+    line-height: 2em;
+  }
+  .useful-links li {
+    text-align: justify;
+    font-size: 17px;
+  }
+  .useful-links a:hover {
+    transition: color 250ms linear;
+    color: #e31837;
+  }
+  #part7 .fab,
+  #part7 .far {
+    font-size: 1.5em;
+    font-weight: 400;
+    border: 1px solid white;
+    margin: 0 9px;
+    padding: 10px;
+    transition: transform 400ms linear;
+    color: red;
+  }
+  #part7 .fab:hover,
+  #part7 .far:hover {
+    transform: translatey(-15px);
+    background-color: #ffffff;
+    border: 1px solid red;
+  }
+  .social {
+    text-align: center;
+    margin-top: 14em ;
+    margin-left: -114px;
+}
+    

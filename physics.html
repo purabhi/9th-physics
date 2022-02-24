@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>physics class 9th</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="phyindex.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="row ">
+            <div class="col-lg-8 ">
+                <div class="contact-details">
+                    <ul>
+                        <li>
+                            <a class=" social-tag"
+                                href="https://www.youtube.com/channel/UCGCB1M7_8or7SO8jBSA9n6w/featured"><i
+                                    class="fab  fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-tag" href="https://www.instagram.com/iqclasses/?hl=en"><i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-tag" href="https://www.facebook.com/people/IQ-Classes/100057281447028/?__xts__[0]=68.ARDXv6U04V8VO0mYLanwwKDImK7gJWNGpY7GngoWW3cvhwlVpXnv86O6BZ6WQG46GxO02UnWShK3pn9N2wyp
+                    29TDgX3psXLMkJQCG5jWxFHgHRpIOfigdZSEOAvMZtxKZX8iDntlwfLyU6Y4leadYswG_LLUpJ9_BEC0lPmVQ
+                    8pBnAFIzhaSbmsXdMHZ-2b_FFqRipl7EgcQ_h1FrR-2WUnKCDxV492yAMkoQXZhNXFduMS0gvOM6-2LMENmn48EHT
+                    5nIBwzY3bMCHke2QF0phXNwQEnwhM81vfVwn6dlZxZMtUdzVRVzBYTRbQsfDLQPClwM-8EHbkPpKVkKlCtf2dx5dRf">
+                                <i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a class="d-md-block d-none"
+                                href="https://iqclasses.in/CLASS-10-PERCENTAGE-CALCULATOR.aspx">10th Calculator</a>
+                        </li>
+                        <li>
+                            <a class="d-md-block d-none"
+                                href="https://iqclasses.in/CLASS-12-PERCENTAGE-CALCULATOR.aspx">12th Calculator</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <ul class="social-list d-sm-flex justify-content-evenly">
+                    <li>
+                        <a class=""
+                            href="https://www.google.com/maps/dir/26.8500992,81.002496/iq+classes/@26.8513615,80.9651166,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x399bfd30a72dfa5b:0x35c4b4954027142b!2m2!1d80.9631824!2d26.8582189"><i
+                                class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;Parag Narain Road, Lucknow</a>
+                    </li>
+                    <li>
+                        <a href="tel:7905529739"><i class="fas fa-phone"></i> 7905529739,</a>
+                    </li>
+                    <li>
+                        <a href="tel:9839520987">9839520987</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="LOGO.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="ss">
+                    <ul class="navbar-nav float-left">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-caret-down"></i>
+                                Subjects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="enrol-button">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Click Here</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-danger" exampleModalLabel">Register Now </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Forname -->
+                    <div class="input-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                                    class="fas fa-user icon"></i>UserName</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+
+                    <!-- for telephone -->
+                    <div class="input-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                                    class="fas fa-phone-alt icon"></i>Phone</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+
+                    <!-- for email -->
+                    <div class="input-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                                    class="fas fa-envelope icon"></i>Email</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+
+                    <!-- class -->
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Class Studying</option>
+                        <option value="1">Class 9th</option>
+                        <option value="2">Class 10th</option>
+                        <option value="3">Class 11th</option>
+                        <option value="3">Class 12th</option>
+                    </select>
+
+                    <!-- board -->
+                    <label for="exampleInputtext" class="form-label">Select Board</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            ICSE BOARD
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            CBSE BOARD
+                        </label>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+   <div class="container bg-light">
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+
+       
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#ff93e8,#fbf1ff);">
+               <h1 class="h-1"><b>Force</b></h1>
+               
+                <img src="new1.png" class="card-img-top image" alt="..." height="140px;">
+             
+             
+              <div class="card-body" >
+              <a style="height:36px;" class="btn btn-outline-danger bt">Notes</a>
+              <a style="height:36px;"  class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dc90ff,#d88efa);">
+                <h1 class="h-2" ><b>Work, energy and power</b></h1>
+                <img src="new2.png" class="card-img-top image" alt="..." height="140px;">
+             
+             
+              <div class="card-body" >
+              <a class="btn btn-outline-danger bt">Notes</a>
+              <a class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dbd6da,#fae4f9);">
+                <h1 class="h-3"><b>Machines</b></h1>
+                <img src="new3.png" class="card-img-top image" alt="..." height="140px;">
+             
+             
+              <div class="card-body" >
+              <a style="height:36px;" class="btn btn-outline-danger bt">Notes</a>
+              <a style="height:36px;" class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#ff93e8,#fbf1ff);">
+               <h1 class="h-4"><b>Refraction through plane surface</b></h1>
+               
+                <img src="new4.png" class="card-img-top image" alt="..." height="150px;">
+             
+             
+              <div class="card-body" >
+              <a class="btn btn-outline-danger bt">Notes</a>
+              <a class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dc90ff,#d88efa);">
+                <h1 class="h-5" ><b>Refraction through the lens</b></h1>
+                <img src="new5.png" class="card-img-top image" alt="..." height="150px;">
+             
+             
+              <div class="card-body" >
+              <a  style="height:36px;" class="btn btn-outline-danger bt">Notes</a>
+              <a  style="height:36px;" class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dbd6da,#fae4f9);">
+                <h1 class="h-6" ><b>Spectrum</b></h1>
+                <img src="new6.png" class="card-img-top image" alt="..." height="150px;">
+             
+             
+              <div class="card-body" >
+              <a style="height:36px;"class="btn btn-outline-danger bt">Notes</a>
+              <a style="height:36px;" class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#ff93e8,#fbf1ff);">
+               <h1 class="h-7"><b>Sound</b></h1>
+               
+                <img src="new7.png" class="card-img-top image" alt="..." height="160px;">
+             
+             
+              <div class="card-body" >
+              <a class="btn btn-outline-danger bt">Notes</a>
+              <a class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dc90ff,#d88efa);">
+                <h1 class="h-8"><b>Current electricity</b></h1>
+                <img src="new8.png" class="card-img-top image" alt="..." height="160px;">
+             
+             
+              <div class="card-body" >
+              <a style="height:36px;"class="btn btn-outline-danger bt">Notes</a>
+              <a style="height:36px;" class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dbd6da,#fae4f9);">
+                <h1 class="h-9"><b>Household circuits</b></h1>
+                <img src="new9.png" class="card-img-top image" alt="..." height="160px;">
+             
+             
+              <div class="card-body" >
+              <a  style="height:36px;"class="btn btn-outline-danger bt">Notes</a>
+              <a  style="height:36px;"class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#ff93e8,#fbf1ff);">
+               <h1 class="h-10"><b>Electro-magnetism</b></h1>
+               
+                <img src="new10.png" class="card-img-top image" alt="..." height="165px;">
+             
+             
+              <div class="card-body" >
+              <a class="btn btn-outline-danger bt">Notes</a>
+              <a class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dc90ff,#d88efa);">
+                <h1 class="h-11"><b>Calorimetry</b></h1>
+                <img src="new11.png" class="card-img-top image" alt="..." height="165px;">
+             
+             
+              <div class="card-body" >
+              <a style="height:36px;" class="btn btn-outline-danger bt">Notes</a>
+              <a style="height:36px;"class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+            <div class="card h-100 cardmain" style=" background-image: linear-gradient(to top left ,#dbd6da,#fae4f9);">
+                <h1 class="h-12"><b>Radioactivity</b></h1>
+                <img src="new12.png" class="card-img-top image" alt="..." height="165px;">
+             
+             
+              <div class="card-body" >
+              <a class="btn btn-outline-danger bt">Notes</a>
+              <a class="btn btn-outline-primary btt">Numericals</a>
+               
+              </div>
+            </div>
+          </div>
+          
+
+      </div>
+     
+         
+       
+    
+         
+    </div> 
+  
+     
+     
+     <!-- --------footer----------- -->
+     <section id="part7">
+        <div class="row" style="justify-content: space-around;">
+            <div class="col-lg-5 services">
+                <h2 style="text-align: center;">Reach Us</h2>
+                <iframe class="frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.425360007304!2d80.96099371421445!3d26.858223668901264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd30a72dfa5b%3A0x35c4b4954027142b!2sIQ%20CLASSES!5e0!3m2!1sen!2sin!4v1643434358193!5m2!1sen!2sin"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="col-lg-4 services">
+                <h2>SERVICES</h2>
+                <ul>
+                    <li>ACADEMIC</li>
+                    <li>ON-LINE PREPARATION</li>
+                    <li>FOUNDATION & CRASH COURSES</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 visit">
+                <h2>CONTACT</h2>
+                <div class="sub-visit">
+                    <address>
+                        B-54, Krishna Bhawan, Parag Narain Road,
+                        Near Butler Palace Colony Lucknow
+                    </address>
+                </div>
+                <div class="sub-visit">
+                    <address>
+                        Contact:+ 91790552 9739
+                    </address>
+                </div>
+                <div class="sub-visit">
+                    <address>Email:info@iqclasses.in</address>
+                </div>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    For Enqueries
+                </button>
+            </div>
+            <div class="social">
+                <i class="fab fa-facebook-f text-align-center"></i>
+                <i class="fab fa-instagram"></i><i class="fab fa-twitter"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Contact <span
+                            style="font-size:2.75rem;color:#e31837;">Us</span></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Forname -->
+                    <div class="input-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                                    class="fas fa-user icon"></i>UserName</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+
+                    <!-- for telephone -->
+                    <div class="input-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                                    class="fas fa-phone-alt icon"></i>Phone</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+
+                    <!-- for email -->
+                    <div class="input-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i
+                                    class="fas fa-envelope icon"></i>Email</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
